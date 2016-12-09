@@ -1,0 +1,185 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ColorWhite{
+  color: white;
+}
+
+.FontSize16{
+  font-size: 16px;
+}
+
+.FontSize24{
+  font-size: 20px;
+}
+
+.FontSize26{
+  font-size: 26px;
+}
+
+.FontSize28{
+  font-size: 28px;
+}
+
+.FontSize30{
+  font-size: 30px;
+}
+
+.TextItalic{
+  font-style: italic;
+}
+
+
+/******************************************************************************/
+/***** LA NAVBAR **************************************************************/
+/******************************************************************************/
+.navbar{
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.LogoTaille{
+  width: 55px;
+  height: 55px;
+}
+
+.navbar-toggle{
+  color: white;
+  background-color: white;
+}
+
+.NavbarText{
+  margin-top: 15px;
+}
+
+.singupPadding{
+  margin-right: 45px;
+}
+
+
+/******************************************************************************/
+/***** ACCUEIL : DIV_1 ********************************************************/
+/******************************************************************************/
+.BackGImg{
+  background-image: url("../Img/payments-banner-graphic.png");
+  height: 560px;
+  padding-top: 200px;
+}
+
+
+/******************************************************************************/
+/***** ICONS : DIV_2 **********************************************************/
+/******************************************************************************/
+.paddingIcons{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.borderIcons{
+  border-right: 2px solid gray;
+}
+
+
+/******************************************************************************/
+/***** $1 : DIV_3 *************************************************************/
+/******************************************************************************/
+.Div3{
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: #F5F5F5;
+}
+
+.H1{
+  color: violet;
+  font-size: 64px;
+}
+
+.paddingXS{
+  padding-top: 35px;
+}
+
+
+/******************************************************************************/
+/***** BLACK : DIV_4 **********************************************************/
+/******************************************************************************/
+.rowBlack{
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+
+/******************************************************************************/
+/***** CARRE : DIV_5_6_7_8_9_10 ***********************************************/
+/******************************************************************************/
+.carre1Left{
+  background-color: lightblue;
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  border: 0.5px solid gray;
+}
+
+.carreImg{
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.borderImg{
+  border-radius: 5% 5% 0% 0%;
+}
+
+.CarreText{
+  padding: 5% 5% 0% 5%;
+}
+
+.borderGray{
+  border: 0.2px solid gray;
+}
+
+
+/******************************************************************************/
+/***** btnEND : div_11 ********************************************************/
+/******************************************************************************/
+.DivBtnEND{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.btnEND{
+  background-color: green;
+  color: white;
+  /*width: 20%;*/
+  padding: 5px 10px 5px 10px;
+  /*font-size: 12px;*/
+  border-radius: 3px 3px 3px 3px;
+  border: 0px;
+}
+
+
+/******************************************************************************/
+/***** FOOTER : div_12 ********************************************************/
+/******************************************************************************/
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  opacity: 0.7;
+}
+
+.paddingCONTACT{
+  padding-top: 40px;
+}
+
+.Copyright{
+  padding-top: 2%;
+}
